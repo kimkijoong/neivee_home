@@ -1,31 +1,107 @@
-@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css)
+@import "_color.sass"
+@import "_typography.sass"
 
-%thin
-    font-family: 'Noto Sans Korean'
-    font-style: normal
-    font-weight: 100
 
-%light
-    font-family: 'Noto Sans Korean'
-    font-style: normal
-    font-weight: 300
+////////////////////////////////////////////
+// common
+////////////////////////////////////////////
 
-%demilight
-    font-family: 'Noto Sans Korean'
-    font-style: normal
-    font-weight: 350
+body
+    word-break: keep-all
+    color: $black
+    box-sizing: border-box
 
-%regular
-    font-family: 'Noto Sans Korean'
-    font-style: normal
-    font-weight: 400
+strong
+    @extend %regular
 
-%medium
-    font-family: 'Noto Sans Korean'
-    font-style: normal
-    font-weight: 500
 
-%medium
-    font-family: 'Noto Sans Korean'
-    font-style: normal
-    font-weight: 300
+////////////////////////////////////////////
+// h1, h2, h3, h4, h5, h6, p
+////////////////////////////////////////////
+
+h1
+    @extend %thin
+    @media only screen and (max-width: 767px)
+        font-size: 30px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 48px
+    @media only screen and (min-width: 1025px)
+        font-size: 48px
+
+h2
+    @extend %light
+    @media only screen and (max-width: 767px)
+        font-size: 26px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 36px
+    @media only screen and (min-width: 1025px)
+        font-size: 36px
+
+h3
+    @extend %light
+    @media only screen and (max-width: 767px)
+        font-size: 18px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 22px
+    @media only screen and (min-width: 1025px)
+        font-size: 22px
+
+h4
+    @extend %demilight
+    @media only screen and (max-width: 767px)
+        font-size: 15px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 18px
+    @media only screen and (min-width: 1025px)
+        font-size: 18px
+
+h5
+
+
+h6
+    @extend %regular
+    @media only screen and (max-width: 767px)
+        font-size: 12px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 12px
+    @media only screen and (min-width: 1025px)
+        font-size: 12px
+
+p, a
+    @extend %light
+    @media only screen and (max-width: 767px)
+        font-size: 14px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 15px
+    @media only screen and (min-width: 1025px)
+        font-size: 15px
+
+a
+
+
+    
+
+////////////////////////////////////////////
+// home
+////////////////////////////////////////////
+
+.h1_home
+    color: $white
+    text-align: center
+    @media only screen and (max-width: 767px)
+        margin-top: 103px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        margin-top: 210px
+    @media only screen and (min-width: 1025px)
+        margin-top: 210px
+
+
+.header_sub
+    color: $white
+    text-align: center
+    @media only screen and (max-width: 767px)
+        margin-top: 19px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        margin-top: 20px
+    @media only screen and (min-width: 1025px)
+        margin-top: 20px

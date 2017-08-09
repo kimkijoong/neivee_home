@@ -5,27 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>neivee home</title>
+    <link rel="stylesheet" href="../css/initialization/normalize.css">
+    <link rel="stylesheet" href="../css/initialization/reset.css">
     <link rel="stylesheet" type="" href="../css/grid-system-mobile-first-fix-count.css">
     <link href='https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="wrapper container show-grid">
-        <nav class="navigation_d row">
-            <div class="column m-2">
-                <a href="">
-                    <img src="" alt="neivee">
+    <div class="wrapper container">
+        <nav class="navigation row">
+            <div class="nav_container">
+                <div class="d-menu-center-1 column m-2 t-2 d-6">
+                <a class="neivee_logo_area" href="index.html">
+                    <img class="neivee_logo" src="../image/neivee_fake.png" alt="neivee">
                 </a>
-            </div>
-            <div class="column m-2">
-                <button type="">
-                    <img src="../icon/ic_menu@1x.png" alt="menu">
-                </button>
+                </div>
+                <div class="d-menu-center-2 column m-2 t-hidden d-hidden">
+                    <button class="d-menu-button" type="">
+                        <img class="menu_icon" src="../icon/ic_menu@3x.png" alt="menu">
+                    </button>
+                </div>
+                <div class="d-menu-center-2 column m-hidden t-6 d-6">
+                    <div class="d-menu">
+                        <a class="d-menu-link d-menu-hover" href="">공지사항</a>
+                    </div>
+                    <div class="d-menu">
+                        <a class="d-menu-link d-menu-hover" href="">제휴하기</a>
+                    </div>
+                    <div class="d-menu">
+                        <a class="d-menu-link d-menu-hover" href="">그룹신청</a>
+                    </div>
+                    <div class="d-menu">
+                        <a class="d-menu-link d-menu-hover" href="">서비스 소개</a>
+                    </div>
+                </div>
             </div>
         </nav>
-        <div class="header_home_d row">
-            dfdf
-        </div>
+        <section class="header_home_d row">
+            <div class="column m-full t-full d-full">
+                <h1 class="column m-full t-full d-full h1_home">Vehicle for a Wonderful Life</h1>
+                <p class="column m-full t-full d-full header_sub"><네이비> 는 같은 생활 기반을 공유하는 사람들끼리  차를 함께<br>사용하는 ‘그룹 카셰어링 서비스’ 입니다.
+                </p>
+                <div class="column m-full t-full d-full header_wrapper">
+                    <div class="header_position m-hidden clearfix">
+                        <a class="header_button" href="">네이비 소개</a>
+                        <a class="header_button header_btn_right" href="">그룹 신청하기</a>
+                    </div>
+                </div>
+                <div class="column m-full t-hidden d-hidden header_btn_m_postion">
+                    <a class="header_button_m" href="">네이비 소개</a>
+                    <a class="header_button_m" href="">그룹 신청하기</a>
+                </div>
+            </div>
+        </section>
+        <section class="row story_padding story_gray">
+            <div class="row">
+                <h2 class="story_title m-full t-hidden d-hidden">멋진 삶을 위한<br> 특별한 이동수단</h2>
+                <h2 class="story_title m-hidden t-full d-full">멋진 삶을 위한 특별한 이동수단</h2>
+            </div>
+            <div class="row">
+                <p class="story_sub m-full t-full d-full">네이비는 물리적인 차를 넘어, <strong>멋진 삶을 위한 이동수단(vehicle)</strong>을 지향합니다.<br> 기존 이동 수단의 한계로 인해 포기해야 했던 것, 스스로를 제한했던 것에서 벗어나<br> 네이비를 통해 보다 자유롭고, 풍요로운 라이프 스타일을 누려보세요.</p>
+            </div>
+            <div class="row">
+                <a class="button_default" href=""><h3>Abuot neivee</h3></a>
+            </div>
+        </section>
+        <section>
+            <div class="row story_padding">
+                <div class="row">
+                    <h2 class="column story_title m-full t-hidden d-hidden">지금 당신이 있는<br> 그 곳에서</h2>
+                    <h2 class="story_title m-hidden t-full d-full">지금 당신이 있는 그 곳에서</h2>
+                </div>
+                <div class="row">
+                    <p class="column story_sub m-full t-full d-full">아파트, 빌딩 등 주차장이 있는 곳이라면 어디든지 네이비를 만날 수 있어요.<br><strong>지금 당신이 있는 그곳에서 이웃들과 함께 네이비를 신청해보세요.</strong><br>신청자 수, 주차장 규모에 따라 차량을 배치해 드립니다.</p>
+                </div>
+                <div class="row home_2_img">
+                    <div class="column m-full t-2 d-2 t-prefix-1 d-prefix-3">
+                        <div>
+                            <img class="round_shape" src="../image/apart@3x.png" alt="apartment">
+                        </div>
+                        <div>
+                            <h6 class="home_2_txt">
+                                아파트 단지 내 입주민들끼리<br>차량을 함께 타보세요.
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="column m-full t-2 d-2">
+                        <div>
+                            <img class="round_shape" src="../image/office_img.png" alt="apartment">
+                        </div>
+                        <div>
+                            <h6 class="home_2_txt">
+                                같은 빌딩에 입주한 구성원들끼리<br>차량을 함께 타보세요.
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="column m-full t-2 d-2">
+                        <div>
+                            <img class="round_shape" src="../image/group_img.png" alt="apartment">
+                        </div>
+                        <div>
+                            <h6 class="home_2_txt">
+                                10명 이상의 특정 그룹<br>(소모임, 동아리) 멤버들끼리<br>차량을 함께 타보세요.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <a class="button_default" href=""><h3>neivee 신청하기</h3></a>
+                </div>
+            </div>
+        </section>
+        <section class="row story_padding story_gray">
+            <div class="row">
+                <h2 class="story_title m-full t-full d-full">또 하나의 멋진 미디어</h2>
+            </div>
+            <div class="row">
+                <p class="story_sub m-full t-full d-full">네이비는 당신의 브랜드를 고객과 만나게 해주는 새로운 매개체입니다.<br>자동차 브랜드에겐 신차를 홍보하는 시승 플랫폼이 될 수도 있고,<br>자동차라는 공간을 활용하여 상품을 소개하는 미디어가 될 수도 있어요.<br>네이비와 함께할 파트너 브랜드를 기다립니다.</p>
+            </div>
+            <div class="row">
+                <a class="button_default" href=""><h3>neivee 와 제휴하기</h3></a>
+            </div>
+        </section>
+        <section class="row story_padding">
+            <div class="row">
+                <h2 class="story_title m-full t-full d-full">네이비의 새로운 소식</h2>
+            </div>
+            <div class="row">
+                <div class="column m-full t-6 d-6 t-prefix-1 d-prefix-3">
+                    <table class="table_center">
+                        <tr>
+                            <td>
+                                <a class="notice_txt" href="">그룹 카셰어링 네이비, 위워크 삼성점 런칭</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="notice_txt" href="">[네이비 x 재규어] 시승 프로모션 오픈</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="notice_txt" href=""><strong>네이비</strong>, 첫 예약 이웃 대상 30% 할인 쿠폰 증정</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="notice_txt" href=""><strong>네이비</strong>, 고덕 래미안 힐스테이트 런칭</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="notice_txt" href="">그룹 카셰어링 브랜드 <strong>네이비 런칭</strong></a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <footer class="row footer_info">
+            <div class="">
+                <div class="linkable_logo_position">
+                    <img class="linkable_logo" src="../image/linkable_logo.png" alt="linkable">
+                </div>
+                <div class="footer_company_info_group">
+                    <h6 class="footer_company_info">서울시 중구 삼일대로 343 위워크빌딩</h6>
+                    <h6 class="footer_company_info"><strong>대표</strong>&emsp;이남수, 김홍균</h6>
+                    <h6 class="footer_company_info"><strong>사업자등록번호</strong>&emsp;220-88-78696</h6>
+                    <h6 class="footer_company_info"><strong>전화</strong>&emsp;02-569-8013</h6>
+                    <h6 class="footer_company_info"><strong>팩스</strong>&emsp;02-569-8014</h6>
+                    <h6 class="footer_company_info"><strong>이메일</strong>&emsp;info@linkable.co.kr</h6>
+                </div>
+            </div>
+            <div>
+                <div class="footer_sns">
+                    <a href=""><img class="sns_info" src="../image/facebook_logo.png" alt="facebook"></a>
+                    <a href=""><img class="sns_info" src="../image/instagram_logo.png" alt="instagram"></a>
+                    <a href=""><img class="sns_info" src="../image/blog_logo.png" alt="blog"></a>
+                </div>
+                <div  class="footer_linkable_home">
+                    <a class="linkable_jump_btn" href="http://www.linkable.co.kr/">링커블 홈페이지 바로가기</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

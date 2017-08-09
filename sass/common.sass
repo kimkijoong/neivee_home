@@ -1,0 +1,223 @@
+@import "_ui kit.sass"
+
+////////////////////////////////////////////
+// navigation
+////////////////////////////////////////////
+.navigation
+    color: $white
+
+.nav_container
+    position: relative
+    @media only screen and (max-width: 767px)
+        height: 48px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        height: 80px
+    @media only screen and (min-width: 1025px)
+        height: 80px
+
+.d-menu-center-1
+    position: absolute  
+    top: 50%
+    left: 0
+    transform: translate(0, -50%)
+    @media only screen and (max-width: 767px)
+        padding-left: 0
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        padding-left: 58px
+    @media only screen and (min-width: 1025px)
+        padding-left: 58px
+    
+
+.d-menu-center-2
+    position: absolute  
+    top: 50%
+    right: 0
+    transform: translate(0, -50%)
+    padding-right: 56px
+
+.d-menu-button
+    float: right
+    margin-right: 10px
+    border: 0
+    background-color: $white
+
+.d-menu
+    float: right
+    
+.d-menu-link
+    text-decoration: none
+    color: $btn_txt
+    box-sizing: border-box
+    padding: 32px 24px 27px
+    &:visited
+        color: $btn_txt
+
+.d-menu-hover
+    &:hover
+        color: $hover_gray
+        border-bottom: 4px solid $btn_border_gray
+
+.neivee_logo
+    vertical-align: top
+    @media only screen and (max-width: 767px)
+        width: 59px
+        height: 100%
+        padding-top: 4px
+        padding-bottom: 4px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        width: 92px
+        height: 100%
+    @media only screen and (min-width: 1025px)
+        width: 92px
+        height: 100%
+
+.neivee_logo_area
+    padding: 16px
+    vertical-align: top
+
+.menu_icon
+    width: 22px
+    height: 100%
+    vertical-align: top
+    
+
+////////////////////////////////////////////
+// button
+////////////////////////////////////////////
+
+
+.button_default
+    display: block
+    margin-left: auto
+    margin-right: auto
+    padding: 16px
+    border: 1px solid $btn_border_gray
+    text-align: center
+    text-decoration: none
+    background: $btn_gray
+    color: $btn_txt
+    border-radius: 2px
+    margin-top: 40px
+    @media only screen and (max-width: 767px)
+        font-size: 26px
+        max-width: 160px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 36px
+        max-width: 200px
+    @media only screen and (min-width: 1025px)
+        font-size: 36px
+        max-width: 200px
+    &:hover
+        background-color: $navy
+        border-color: $navy
+        h3
+            color: $white
+    &:visited
+        color: $btn_txt
+
+////////////////////////////////////////////
+// story
+////////////////////////////////////////////
+
+.story_title
+    text-align: center
+
+.story_sub
+    text-align: center
+    margin-top: 28px
+
+
+////////////////////////////////////////////
+// footer
+////////////////////////////////////////////
+.footer_info
+    background-color: $navy
+    position: relative
+    color: $white
+    box-sizing: border-box
+    @media only screen and (max-width: 767px)
+        min-height: 423px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        min-height: 258px
+        padding: 40px 64px
+    @media only screen and (min-width: 1025px)
+        min-height: 258px
+        padding: 40px 64px
+
+
+.footer_linkable_home
+    @media only screen and (max-width: 767px)
+        position: relative
+        text-align: center
+        margin-top: 20px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        position: absolute
+        bottom: 50px
+        right: 64px
+    @media only screen and (min-width: 1025px)
+        position: absolute
+        bottom: 50px
+        right: 64px
+
+.footer_sns
+    a
+        display: inline-block
+        vertical-align: top
+    @media only screen and (max-width: 767px)
+        position: relative
+        text-align: center
+        margin-top: 40px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        text-align: left
+        position: absolute
+        right: 52px
+        bottom: 88px
+    @media only screen and (min-width: 1025px)
+        text-align: left
+        position: absolute
+        right: 52px
+        bottom: 88px
+
+.linkable_logo
+    width: 182px
+    height: auto
+
+.linkable_logo_position
+    @media only screen and (max-width: 767px)
+        text-align: center
+        padding-top: 48px
+
+.footer_company_info_group
+    text-align: center
+    @media only screen and (max-width: 767px)
+        margin-top: 20px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        margin-top: 14px
+    @media only screen and (min-width: 1025px)
+        margin-top: 14px
+
+.footer_company_info
+    line-height: 23px
+    font-weight: 100
+    @media only screen and (max-width: 767px)
+        text-align: center
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        text-align: left
+    @media only screen and (min-width: 1025px)
+        text-align: left
+    
+
+.linkable_jump_btn
+    padding: 10px 24px
+    border: 1px solid $white
+    color: $white
+    text-decoration: none
+    font-size: 12px
+    border-radius: 2px
+    &:hover
+        background-color: rgba(255, 255, 255, 0.3)
+
+.sns_info
+    width: 48px
+    height: 100%
+    vertical-align: top
