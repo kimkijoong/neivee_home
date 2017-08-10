@@ -1,0 +1,169 @@
+@import "_ui kit.sass"
+
+////////////////////////////////////////////
+// header
+////////////////////////////////////////////
+.header_service_d
+    position: relative
+    background-image: url("../image/service_header.jpg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    height: 440px
+
+.service_title
+    color: $white
+    font-weight: 100
+    text-align: center
+    @media only screen and (max-width: 767px)
+        margin-top: 154px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        margin-top: 174px
+    @media only screen and (min-width: 1025px)
+        margin-top: 174px
+
+
+.service_subtitle
+    color: $white
+    font-weight: 100
+    text-align: center
+    @media only screen and (max-width: 767px)
+        margin-top: 8px
+
+
+
+
+////////////////////////////////////////////
+// service_2 (need car)
+////////////////////////////////////////////
+
+
+.service_2_img_padding
+    padding-left: 16px
+    padding-right: 16px
+
+.service_img_flex
+    max-width: 100%
+    height: auto
+
+.need_car_title
+    margin-top: 24px
+    margin-bottom: 12px
+    color: $navy_txt
+
+.need_car_subtitle
+    margin-bottom: 40px
+
+
+////////////////////////////////////////////
+// with ride
+////////////////////////////////////////////
+
+.withride_img_padding
+    @media only screen and (max-width: 767px)
+        padding-left: 16px
+        padding-right: 16px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        padding-left: 16px
+        padding-right: 48px
+    @media only screen and (min-width: 1025px)
+        padding-left: 16px
+        padding-right: 56px
+
+.withride_img_flex
+    max-width: 100%
+    height: auto
+    @media only screen and (min-width: 321px) and (max-width: 767px)
+        width: 310px
+        height: auto
+
+.withride_apply_btn
+    display: inline-block
+    box-sizing: border-box
+    padding: 10px 24px
+    border: 1px solid $btn_border_gray
+    background-color: $btn_gray
+    text-decoration: none
+    border-radius: 2px
+    margin-top: 40px
+    color: $btn_txt
+    &:visited
+        color: $btn_txt
+    &:hover
+        color: $white
+        background-color: $navy
+        border-color: $navy
+
+.ride_margin_top
+    margin-top: 40px
+
+////////////////////////////////////////////
+// choice car
+////////////////////////////////////////////
+
+.caution
+    color: $btn_txt
+    max-width: 1024px
+    text-align: right
+    margin: 0 auto
+    margin-bottom: 16px
+    padding-left: 32px
+    padding-right: 32px
+
+.car_img
+    vertical-align: top
+    margin-top: 8px
+    max-width: 100%
+    height: auto
+    padding-left: 8px
+    padding-right: 8px
+
+////////////////////////////////////////////
+// price table
+////////////////////////////////////////////
+
+.table_position
+    text-align: center
+
+table
+    max-width: 1024px
+    margin: 0 auto
+    width: 100%
+    
+
+.table_padding
+    @media only screen and (max-width: 767px)
+        margin-left: 32px
+        margin-right: 32px
+    @media only screen and (min-width: 768px) and (max-width: 1088px)
+        padding: 0 32px
+
+.th_top
+    padding: 24px
+    background-color: $navy
+    color: $white
+    font-weight: 200
+    vertical-align: middle
+    
+.table_hidden
+    @media only screen and (max-width: 767px)
+        display: none
+
+.th_left
+    padding: 12px 12px
+    min-width: 96px
+    background-color: $navy
+    color: $white
+    font-weight: 200
+    box-sizing: border-box
+    border-bottom: 1px solid $navy
+    vertical-align: middle
+    
+
+.td_info
+    box-sizing: border-box
+    border-bottom: 1px solid $btn_border_gray
+    text-align: right
+    color: $hover_gray
+    padding-right: 16px
+    vertical-align: middle

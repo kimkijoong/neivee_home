@@ -20,6 +20,11 @@ strong, h6 {
   font-style: normal;
   font-weight: 400; }
 
+h5, .withride_title {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: 500; }
+
 h1 {
   font-family: 'Noto Sans Korean';
   font-style: normal;
@@ -39,6 +44,11 @@ strong, h6 {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: 400; }
+
+h5, .withride_title {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: 500; }
 
 body {
   word-break: keep-all;
@@ -94,6 +104,18 @@ body {
     font-size: 18px; } }
 
 @media only screen and (max-width: 767px) {
+  h5 {
+    font-size: 15px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  h5 {
+    font-size: 15px; } }
+
+@media only screen and (min-width: 1025px) {
+  h5 {
+    font-size: 15px; } }
+
+@media only screen and (max-width: 767px) {
   h6 {
     font-size: 12px; } }
 
@@ -143,6 +165,41 @@ body {
     .header_sub {
       margin-top: 20px; } }
 
+.withride_title {
+  color: #0064A2; }
+  @media only screen and (max-width: 767px) {
+    .withride_title {
+      font-size: 15px;
+      text-align: center;
+      margin-top: 24px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .withride_title {
+      font-size: 22px; } }
+  @media only screen and (min-width: 1025px) {
+    .withride_title {
+      font-size: 22px; } }
+
+@media only screen and (max-width: 767px) {
+  .withride_body {
+    text-align: center;
+    max-width: 310px;
+    margin: 0 auto;
+    padding: 0 16px;
+    margin-top: 12px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .withride_body {
+    margin-top: 24px; } }
+
+@media only screen and (min-width: 1025px) {
+  .withride_body {
+    margin-top: 24px; } }
+
+.car_name {
+  color: #0064A2;
+  font-weight: 500;
+  margin-bottom: 40px; }
+
 .navigation {
   color: #ffffff; }
 
@@ -179,6 +236,9 @@ body {
   right: 0;
   transform: translate(0, -50%);
   padding-right: 56px; }
+  @media only screen and (max-width: 767px) {
+    .d-menu-center-2 {
+      padding-right: 0; } }
 
 .d-menu-button {
   float: right;
@@ -200,6 +260,16 @@ body {
 .d-menu-hover:hover {
   color: #495057;
   border-bottom: 4px solid #CED4DA; }
+
+.d-menu-active {
+  color: #0064A2;
+  border-bottom: 4px solid #004d81;
+  font-weight: 400; }
+  .d-menu-active:hover {
+    color: #0064A2;
+    border-bottom: 4px solid #CED4DA; }
+  .d-menu-active:visited {
+    color: #0064A2; }
 
 .neivee_logo {
   vertical-align: top; }
@@ -373,3 +443,43 @@ body {
   width: 48px;
   height: 100%;
   vertical-align: top; }
+
+.txt_center {
+  text-align: center; }
+
+@media only screen and (max-width: 767px) {
+  .txt_center_m {
+    text-align: center; } }
+
+.row_margin {
+  margin: 0 auto;
+  max-width: 1024px;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.story_padding {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (max-width: 767px) {
+    .story_padding {
+      padding-left: 32px;
+      padding-right: 32px; } }
+
+.story_gray {
+  background-color: #F8F9FA;
+  border-bottom: 1px solid #E9ECEF; }
+
+.story_padding_bottom48 {
+  padding-bottom: 48px; }
+
+hr {
+  border: 1px solid #DEE2E6; }
+
+.mt_40 {
+  margin-top: 40px; }
+
+.mt_80 {
+  margin-top: 80px; }
+
+.display_block {
+  display: block; }

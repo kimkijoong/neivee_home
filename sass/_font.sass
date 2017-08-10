@@ -56,7 +56,13 @@ h4
         font-size: 18px
 
 h5
-
+    @extend %medium
+    @media only screen and (max-width: 767px)
+        font-size: 15px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 15px
+    @media only screen and (min-width: 1025px)
+        font-size: 15px
 
 h6
     @extend %regular
@@ -105,3 +111,36 @@ a
         margin-top: 20px
     @media only screen and (min-width: 1025px)
         margin-top: 20px
+
+////////////////////////////////////////////
+// service
+////////////////////////////////////////////
+
+.withride_title
+    @extend %medium
+    color: $navy_txt
+    @media only screen and (max-width: 767px)
+        font-size: 15px
+        text-align: center
+        margin-top: 24px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        font-size: 22px
+    @media only screen and (min-width: 1025px)
+        font-size: 22px
+
+.withride_body
+    @media only screen and (max-width: 767px)
+        text-align: center
+        max-width: 310px
+        margin: 0 auto
+        padding: 0 16px
+        margin-top: 12px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        margin-top: 24px
+    @media only screen and (min-width: 1025px)
+        margin-top: 24px
+
+.car_name
+    color: $navy_txt
+    font-weight: 500
+    margin-bottom: 40px

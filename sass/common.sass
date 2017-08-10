@@ -34,6 +34,8 @@
     right: 0
     transform: translate(0, -50%)
     padding-right: 56px
+    @media only screen and (max-width: 767px)
+        padding-right: 0
 
 .d-menu-button
     float: right
@@ -56,6 +58,17 @@
     &:hover
         color: $hover_gray
         border-bottom: 4px solid $btn_border_gray
+
+
+.d-menu-active
+    color: $navy_txt
+    border-bottom: 4px solid $navy_line
+    font-weight: 400
+    &:hover
+        color: $navy_txt
+        border-bottom: 4px solid $btn_border_gray
+    &:visited
+        color: $navy_txt 
 
 .neivee_logo
     vertical-align: top
@@ -221,3 +234,54 @@
     width: 48px
     height: 100%
     vertical-align: top
+
+
+///////////////////////////////////////////////
+// story
+///////////////////////////////////////////////
+
+.txt_center
+    text-align: center
+
+.txt_center_m
+    @media only screen and (max-width: 767px)
+        text-align: center
+
+.row_margin
+    margin: 0 auto
+    max-width: 1024px
+    padding-left: 16px
+    padding-right: 16px
+
+
+
+.story_padding
+    padding-top: 80px
+    padding-bottom: 80px
+    @media only screen and (max-width: 767px)
+        padding-left: 32px
+        padding-right: 32px
+
+.story_gray
+    background-color: $bg_gray
+    border-bottom: 1px solid $long_line
+
+.story_padding_bottom48
+    padding-bottom: 48px
+
+///////////////////////////////////////////////
+// hr
+///////////////////////////////////////////////
+
+hr
+    border: 1px solid $btn_gray
+
+.mt_40
+    margin-top: 40px
+
+.mt_80
+    margin-top: 80px
+
+
+.display_block
+    display: block
