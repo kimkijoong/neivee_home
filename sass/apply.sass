@@ -1,0 +1,44 @@
+@import "_ui kit.sass"
+
+////////////////////////////////////////////
+// header
+////////////////////////////////////////////
+.header_apply_d
+    position: relative
+    background-image: url("../image/apply_header_img.png")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    height: 440px
+
+////////////////////////////////////////////
+// meet
+////////////////////////////////////////////
+
+.apply_title
+    @media only screen and (max-width: 350px)
+        width: 200px
+        margin-left: auto
+        margin-right: auto
+        margin-top: 142px
+    @media only screen and (min-width: 351px) and (max-width: 767px)
+        margin-top: 180px
+
+.apply_meet_title
+    padding-bottom: 46px
+
+.caution_meet
+    color: $btn_txt
+    max-width: 1024px
+    text-align: right
+    margin: 0 auto
+    margin-bottom: 16px
+    @media only screen and (max-width: 767px)
+        padding-left: 32px
+        padding-right: 32px
+        text-align: center
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        text-align: center
+    @media only screen and (min-width: 1025px)
+        padding-right: 64px
+        padding-left: 32px

@@ -5,6 +5,8 @@
 ////////////////////////////////////////////
 .navigation
     color: $white
+    max-width: 1146px
+    margin: 0 auto
 
 .nav_container
     position: relative
@@ -23,9 +25,9 @@
     @media only screen and (max-width: 767px)
         padding-left: 0
     @media only screen and (min-width: 768px) and (max-width: 1024px)
-        padding-left: 58px
+        padding-left: 56px
     @media only screen and (min-width: 1025px)
-        padding-left: 58px
+        padding-left: 56px
     
 
 .d-menu-center-2
@@ -143,13 +145,18 @@
 ////////////////////////////////////////////
 // footer
 ////////////////////////////////////////////
+.footer_bg
+    background-color: $navy
+
 .footer_info
     background-color: $navy
     position: relative
     color: $white
     box-sizing: border-box
+    max-width: 1152px
+    margin: 0 auto
     @media only screen and (max-width: 767px)
-        min-height: 423px
+        min-height: 450px
     @media only screen and (min-width: 768px) and (max-width: 1024px)
         min-height: 258px
         padding: 40px 64px
@@ -210,7 +217,6 @@
         margin-top: 14px
 
 .footer_company_info
-    line-height: 23px
     font-weight: 100
     @media only screen and (max-width: 767px)
         text-align: center
@@ -253,7 +259,12 @@
     padding-left: 16px
     padding-right: 16px
 
-
+.row_margin_2
+    margin: 0 auto
+    max-width: 1024px
+    padding-left: 16px
+    padding-right: 16px
+    margin-bottom: 40px
 
 .story_padding
     padding-top: 80px
@@ -285,3 +296,9 @@ hr
 
 .display_block
     display: block
+
+.txt_right
+    text-align: right
+
+.txt_left
+    text-align: left

@@ -200,6 +200,9 @@ body {
   font-weight: 500;
   margin-bottom: 40px; }
 
+table * {
+  font-size: 14px; }
+
 .header_home_d {
   position: relative;
   background-image: url("../image/neivee_main.jpg");
@@ -345,11 +348,9 @@ body {
   text-align: center;
   margin: 16px auto 0;
   padding-bottom: 8px; }
-  .table_center tr {
-    border-bottom: 1px solid #CED4DA; }
-    .table_center tr td {
-      padding-top: 16px;
-      padding-bottom: 2px; }
+  .table_center tr td {
+    padding-top: 16px;
+    padding-bottom: 2px; }
 
 .notice_txt {
   text-decoration: none;

@@ -200,6 +200,9 @@ body {
   font-weight: 500;
   margin-bottom: 40px; }
 
+table * {
+  font-size: 14px; }
+
 .header_service_d {
   position: relative;
   background-image: url("../image/service_header.jpg");
@@ -351,3 +354,28 @@ table {
   color: #495057;
   padding-right: 16px;
   vertical-align: middle; }
+
+.neivee_img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top; }
+  @media only screen and (min-width: 321px) and (max-width: 767px) {
+    .neivee_img {
+      width: 220px;
+      height: auto; } }
+
+.neivee_app_padding {
+  padding: 0 16px; }
+
+.neivee_app_title {
+  color: #0064A2;
+  margin-top: 16px;
+  margin-bottom: 12px; }
+
+.neivee_app_body {
+  margin-bottom: 40px; }
+
+.store_link {
+  display: inline-block; }
+  .store_link img {
+    vertical-align: top; }
