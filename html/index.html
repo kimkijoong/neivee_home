@@ -10,18 +10,22 @@
     <link rel="stylesheet" type="" href="../css/grid-system-mobile-first-fix-count.css">
     <link href='https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../lib/jquery.min.js"></script>
 </head>
 <body>
-    <article class="wrapper container">
-        <nav class="navigation row">
-            <div class="nav_container">
+    <article class="wrapper container menu_relative">
+        <nav class="nav_shadow nav_fix_top">
+            <div class="navigation row">
+                <div class="nav_container">
                 <div class="d-menu-center-1 column m-2 t-2 d-6">
                 <a class="neivee_logo_area" href="index.html">
                     <img class="neivee_logo" src="../image/neivee_fake.png" alt="neivee">
                 </a>
                 </div>
                 <div class="d-menu-center-2 column m-2 t-hidden d-hidden">
-                    <button class="d-menu-button" type="">
+                    <button class="d-menu-button button-collapse" type="">
                         <img class="menu_icon" src="../icon/ic_menu@3x.png" alt="menu">
                     </button>
                 </div>
@@ -39,9 +43,10 @@
                         <a class="d-menu-link d-menu-hover" href="service.html">서비스 소개</a>
                     </div>
                 </div>
+                </div>
             </div>
         </nav>
-        <section class="header_home_d row">
+        <section class="header_home_d header_top_margin row">
             <div class="column m-full t-full d-full">
                 <h1 class="column m-full t-full d-full h1_home">Vehicle for a Wonderful Life</h1>
                 <p class="column m-full t-full d-full header_sub"><네이비> 는 같은 생활 기반을 공유하는 사람들끼리  차를 함께<br>사용하는 ‘그룹 카셰어링 서비스’ 입니다.
@@ -136,7 +141,7 @@
                     <table class="table_center">
                         <tr>
                             <td>
-                                <a class="notice_txt" href="">그룹 카셰어링 네이비, 위워크 삼성점 런칭</a>
+                                <a class="notice_txt" href="notice_board_01.html">그룹 카셰어링 네이비, 위워크 삼성점 런칭</a>
                             </td>
                         </tr>
                         <tr>
@@ -193,6 +198,37 @@
             </div>
             </div>
         </footer>
+        <section class="menu_fix_top row">
+            <div class="column m-full t-hidden d-hidden">
+                <div class="menu_gnb_container">
+                    <div class="close_area">
+                        <div class="close_position">
+                            <button class="close_btn" type="button">
+                                <img class="close_img" src="../icon/ic_close@2x.png" alt="닫기 버튼">
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="menu_margin">
+                        <li>
+                            <a href="index.html">네이비 홈</a>
+                        </li>
+                        <li>
+                            <a href="service.html">서비스 소개</a>
+                        </li>
+                        <li>
+                            <a href="apply.html">그룹신청</a>
+                        </li>
+                        <li>
+                            <a href="with.html">제휴하기</a>
+                        </li>
+                        <li>
+                            <a href="notice.html">공지사항</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
     </article>
+    <script src="../js/core.js"></script>
 </body>
 </html>

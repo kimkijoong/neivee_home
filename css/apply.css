@@ -5,15 +5,15 @@ h1 {
   font-style: normal;
   font-weight: 100; }
 
-h2, h3, p, a {
+h3 {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: 200; }
+
+h2, h4, p, a {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: 300; }
-
-h4 {
-  font-family: 'Noto Sans Korean';
-  font-style: normal;
-  font-weight: 350; }
 
 strong, h6 {
   font-family: 'Noto Sans Korean';
@@ -30,15 +30,15 @@ h1 {
   font-style: normal;
   font-weight: 100; }
 
-h2, h3, p, a {
+h3 {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: 200; }
+
+h2, h4, p, a {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: 300; }
-
-h4 {
-  font-family: 'Noto Sans Korean';
-  font-style: normal;
-  font-weight: 350; }
 
 strong, h6 {
   font-family: 'Noto Sans Korean';
@@ -211,14 +211,14 @@ table * {
   background-size: cover;
   height: 440px; }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 429px) {
   .apply_title {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 142px; } }
 
-@media only screen and (min-width: 351px) and (max-width: 767px) {
+@media only screen and (min-width: 430px) and (max-width: 767px) {
   .apply_title {
     margin-top: 180px; } }
 

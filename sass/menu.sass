@@ -1,0 +1,58 @@
+@import "_ui kit.sass"
+
+.menu_gnb_container
+    background-color: $navy
+    width: 100%
+    height: 100%
+    margin: 0 auto
+    ul
+        margin: 0 auto
+        padding-left: 48px
+        padding-right: 48px
+        li
+            padding-top: 14px
+            padding-bottom: 14px
+            list-style: none
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15)
+            a
+                
+                color: $white
+                text-decoration: none
+
+.close_area
+    height: 48px
+    max-width: 100%
+    position: relative
+
+.close_btn
+    border: none
+    background-color: $navy
+
+.close_img
+    width: 24px
+    height: 24px
+    vertical-align: top
+
+.menu_margin
+    margin-top: 20px !important
+    margin-bottom: 40px !important
+
+.close_position
+    position: absolute
+    top: 50%
+    right: 0
+    transform: translate(0,-50%)
+    margin-right: 10px
+
+.menu_relative
+    position: relative
+    height: 100%
+    width: 100%
+
+.menu_fix_top
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 2000
+    transform: translateY(-100%)
+

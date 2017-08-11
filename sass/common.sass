@@ -8,6 +8,25 @@
     max-width: 1146px
     margin: 0 auto
 
+.nav_fix_top
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    z-index: 1000
+    background-color: rgba(255, 255, 255, 0.99)
+
+.header_top_margin
+    @media only screen and (max-width: 767px)
+        margin-top: 48px
+    @media only screen and (min-width: 768px) and (max-width: 1024px)
+        margin-top: 80px
+    @media only screen and (min-width: 1025px)
+        margin-top: 80px
+
+.nav_shadow
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.15)
+
 .nav_container
     position: relative
     @media only screen and (max-width: 767px)
@@ -302,3 +321,27 @@ hr
 
 .txt_left
     text-align: left
+
+.margin_auto
+    margin: 0 auto
+
+.margin_left_auto
+    margin-left: auto
+
+.margin_right_auto
+    margin-right: auto
+
+.mt_24
+    margin-top: 24px
+
+.mb_24
+    margin-bottom: 24px
+
+.mt_8
+    margin-top: 8px
+
+.mt_4
+    margin-top: 4px
+
+.mt_16
+    margin-top: 16px
