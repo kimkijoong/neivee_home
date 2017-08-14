@@ -206,7 +206,6 @@ table * {
 .menu_gnb_container {
   background-color: #164573;
   width: 100%;
-  height: 100%;
   margin: 0 auto; }
   .menu_gnb_container ul {
     margin: 0 auto;
@@ -221,30 +220,9 @@ table * {
         color: #ffffff;
         text-decoration: none; }
 
-.close_area {
-  height: 48px;
-  max-width: 100%;
-  position: relative; }
-
-.close_btn {
-  border: none;
-  background-color: #164573; }
-
-.close_img {
-  width: 24px;
-  height: 24px;
-  vertical-align: top; }
-
 .menu_margin {
-  margin-top: 20px !important;
-  margin-bottom: 40px !important; }
-
-.close_position {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0, -50%);
-  margin-right: 10px; }
+  padding-top: 24px !important;
+  padding-bottom: 40px !important; }
 
 .menu_relative {
   position: relative;
@@ -253,7 +231,8 @@ table * {
 
 .menu_fix_top {
   position: fixed;
-  top: 0;
+  top: 48px;
   width: 100%;
   z-index: 2000;
-  transform: translateY(-100%); }
+  background-color: #164573;
+  display: none; }
